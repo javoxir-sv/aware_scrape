@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+lxml
+js2py
+pandas
+playwright
+playwright-stealth
+rich
