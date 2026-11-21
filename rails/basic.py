@@ -1,8 +1,6 @@
 import requests
 import time
 
-
-
 url = "https://eticket.uzrailpass.uz/api/v1/csrf-token"
 headers = {
         "user-agent": (
@@ -57,6 +55,6 @@ print("Getting the list data...")
 list_response = requests.post(url=list_url, headers=list_headers, json=payload)
 
 print("Status:", list_response.status_code)
-print("Response (text):", list_response.text)
+# print("Response (text):", list_response.text)
 print("Response (json):", list_response.json())
 
