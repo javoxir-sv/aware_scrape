@@ -94,6 +94,8 @@ def main():
                 csrf_token = get_csrf_token()
                 print("[-] Re-tring to get the data...")
                 get_data(csrf_token, i)
+            else:
+                print("[!] Failed to establish communication with the backend api, can't be helped.")
         else:
             print("[!] Failed to establish communication with the backend api, can't be helped.")
             exit()
