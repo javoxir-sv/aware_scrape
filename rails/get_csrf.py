@@ -9,6 +9,7 @@ def get_csrf_token():
                 ),
             "accept": "application/json",
             "accept-language": "uz",
+            "content-type": "application/json",
             "device-type": "BROWSER",
             "referer": "https://eticket.uzrailpass.uz/uz/pages/trains-page",
             }
