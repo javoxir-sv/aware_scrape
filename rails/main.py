@@ -47,7 +47,7 @@ def main():
         type=int,
         default=5,
         help=(
-            "Seconds to wait between gettinf the CSRF token and making a POST request to the backend api (default: 5)"
+            "Seconds to wait between getting the CSRF token and making a POST request to the backend api (default: 5)"
         )
     )
 
